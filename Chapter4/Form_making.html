@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms In Html</h1>
+    <form action="/submit.php">
+
+        <div>
+            <label for="name">Name :</label>
+            <input id="name" placeholder="Enter Name" required>
+        </div>
+        <div>
+            <label for="test">phone :</label>
+            <input id="text" type="tel" placeholder="Enter Phone" required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input id="email" type="email" placeholder="Enter email" required>
+        </div>
+        <div>
+            <label for="password">password :</label>
+            <input id="password" type="password" placeholder="Enter password" required>
+        </div>
+        <div>
+            <label for="dob">date of birth :</label>
+            <input id="dob" type="data" placeholder="Enter dob" required>
+        </div>
+
+        <!--Drowdown(selsect input) for gender -->
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected> Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Gay</option>
+            </select>
+        </div>
+        <!-- Radio buttons for subscription plan-->
+        <div>
+            <p> subscription plan</p>
+            <input id="basic" type="radio" name="subscription" value="basic">
+            <label for="basic">Basic</label>
+
+            <input id="premium" type="radio" name="subscription" value="premium">
+            <label for="premium">Premium</label>
+
+            <input id="vip" type="radio" name="subscription" value="vip">
+            <label for="vip">Vip</label>
+        </div>
+           <!-- checkbox for agreeing to terms-->
+            <div>
+                <input id="terms" type="checkbox"  required>
+                <label for="terms"> I agree to the terms condition</label>
+            </div>
+            <!-- texts For comments-->
+             <div>
+                <label for="comments"> Comments</label>
+                <textarea id="Comments" placeholder=" Enter Yor Comments" rows="5"></textarea>
+             </div>
+             <!-- Sumbit button-->
+              <div>
+                <button type="submit"Submit></button>
+              </div>
+    </form>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    form {
+        background: white;
+        padding: 25px 30px;
+        border-radius: 10px;
+        width: 350px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    form div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #444;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #ffce63;
+        box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+    }
+
+    /* Radio Buttons Styling */
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+        margin-right: 5px;
+    }
+
+    p {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    /* Submit Button */
+    button {
+        width: 100%;
+        padding: 10px;
+        background: #ff639f;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        background: #db4b93;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 400px) {
+        form {
+            width: 90%;
+        }
+    }
+</style>
+
+</head>
+
+
+<body>
+    <h1>Forms In Html</h1>
+    <form action="/submit.php">
+
+        <div>
+            <label for="name">Name :</label>
+            <input id="name" placeholder="Enter Name" required>
+        </div>
+        <div>
+            <label for="test">phone :</label>
+            <input id="text" type="tel" placeholder="Enter Phone" required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input id="email" type="email" placeholder="Enter email" required>
+        </div>
+        <div>
+            <label for="password">password :</label>
+            <input id="password" type="password" placeholder="Enter password" required>
+        </div>
+        <div>
+            <label for="dob">date of birth :</label>
+            <input id="dob" type="data" placeholder="Enter dob" required>
+        </div>
+
+    
+         <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected> Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Gay</option>
+            </select>
+        </div> -->
+        <!-- Radio buttons for subscription plan-->
+        <!-- <div>
+            <p> subscription plan</p>
+            <input id="basic" type="radio" name="subscription" value="basic">
+            <label for="basic">Basic</label>
+
+            <input id="premium" type="radio" name="subscription" value="premium">
+            <label for="premium">Premium</label>
+
+            <input id="vip" type="radio" name="subscription" value="vip">
+            <label for="vip">Vip</label> -->
+        <!-- </div> -->
+           <!-- checkbox for agreeing to terms-->
+            <!-- <div>
+                <input id="terms" type="checkbox"  required>
+                <label for="terms"> I agree to the terms condition</label>
+            </div> -->
+            <!-- texts For comments-->
+             <!-- <div>
+                <label for="comments"> Comments</label>
+                <textarea id="Comments" placeholder=" Enter Yor Comments" rows="5"></textarea>
+             </div> -->
+             <!-- Sumbit button-->
+              <!-- <div>
+                <button type="submit"Submit></button>
+              </div>
+    </form>
+</body>
+
+</html>  --> 
