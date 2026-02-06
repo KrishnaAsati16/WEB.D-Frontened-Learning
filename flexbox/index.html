@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 7px solid black;
+            padding: 2px;
+            margin: 2px;
+            /* display: flex;  flex -> rows me arrange */
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-between;
+        }
+        .box{
+            height: 200px;
+            width: 100px;
+            margin: 2px;
+            border: 3px solid brown;
+            padding: 3px;;
+        }
+
+        #box1{
+            background-color: violet;
+            order: 500;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: aquamarine;
+        }
+        #box4{
+            background-color: green;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+</body>
+</html>
+
+<!-- properties -->
+<!-- flex grow
+flex shink -->
+<!-- flex basic -> dimension det -->
