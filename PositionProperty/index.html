@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positon-> fixed ,relative,shifting,sticky</title>
+    <style>
+        .Container{
+             height: 8000px;
+        }
+        div {
+            border: 1px solid black;
+        }
+
+        img {
+            margin: 10px;
+        }
+
+        /* relative position shifting */
+        /* absolue position fixing */
+        .image1 {
+            /* position:relative;
+            top: 100px;
+            left: 500px; */
+            position: absolute;
+        }
+        .image3{
+            position: fixed;
+
+        }
+        .image1{
+            position: sticky;
+            top: 1200px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Container">
+        <img src="1.jpg" alt="poster1" width="300px;" height="300px" class="image1">
+
+        <img src="2.jpg" alt="poster2" width="300px;" height="300px" class="image2">
+
+        <img src="3.jpg" alt="poster3" width="300px;" height="300px" class="image3">
+    </div>
+</body>
+
+</html>
