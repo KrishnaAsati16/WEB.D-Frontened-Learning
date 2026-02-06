@@ -1,0 +1,25 @@
+.hero{
+    background-color:cornflowerblue ;
+    text-align: center;
+    padding: 60px 10px; 
+}
+.hero-title{
+    color:#2b3a67;
+    font-size:36px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.hero-subtitle{
+    color: #555;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero-btn{
+    display: inline-block;
+    background-color: #2b8aef;
+    color: white;
+    padding:10px 20px ;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
