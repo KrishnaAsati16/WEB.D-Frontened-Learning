@@ -19,3 +19,13 @@ I’m learning frontend from different sources (YouTube, tutorials, courses), an
 ^ JavaScript logic & DOM projects
 ^ Mini projects
 ^ React components & apps
+
+📈 My Goal
+
+To become a skilled Frontend Developer by:
+
+-> Building real-world projects
+-> Improving UI/UX skills
+-> Writing clean and efficient code
+
+📂 Folder Structure
