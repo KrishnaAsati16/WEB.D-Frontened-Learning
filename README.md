@@ -12,3 +12,10 @@ I’m learning frontend from different sources (YouTube, tutorials, courses), an
 *CSS*
 *JavaScript*
 *React*
+
+🛠️ What You'll Find in This Repo
+^ Basic HTML pages
+^ CSS styling practice
+^ JavaScript logic & DOM projects
+^ Mini projects
+^ React components & apps
