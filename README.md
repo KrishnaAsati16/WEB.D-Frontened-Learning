@@ -29,3 +29,9 @@ To become a skilled Frontend Developer by:
 -> Writing clean and efficient code
 
 📂 Folder Structure
+
+/html
+/css
+/javascript
+/react
+/projects
